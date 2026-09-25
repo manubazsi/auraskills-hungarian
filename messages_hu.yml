@@ -1,0 +1,967 @@
+# ----------------------------
+# AuraSkills üzenetfájl
+# ----------------------------
+
+abilities:
+  bountiful_harvest:
+    name: "Bőséges Aratás"
+    desc: "+{value} Farmolási Szerencsét ad, ami növeli az esélyét extra nyersanyagok megszerzésére."
+    info: "+{value} Farmolási Szerencse"
+  farmer:
+    name: "Farmoló"
+    desc: "{value}% több Farmolási XP-t szerzel."
+    info: "+{value}% XP"
+  scythe_master:
+    name: "Kasza Mester"
+    desc: "{value}%-kal növeli a kapa által okozott sebzést."
+    info: "+{value}% Kapa Sebzés"
+  geneticist:
+    name: "Genetikus"
+    desc: "{value}-vel növeli a növényi alapú ételek telítettségét."
+    info: "+{value} Telítettség"
+  growth_aura:
+    name: "Növekedési Aura"
+    desc: "A {radius} blokk távolságon belüli növények {value}%-kal gyorsabban nőnek."
+    info: "+{value}% Növekedés"
+  lumberjack:
+    name: "Favágó"
+    desc: "+{value} Fakitermelési Szerencsét ad, ami növeli az esélyét extra nyersanyagok megszerzésére."
+    info: "+{value} Fakitermelési Szerencse"
+  forager:
+    name: "Gyűjtögető"
+    desc: "{value}% több Fakitermelési XP-t szerzel."
+    info: "+{value}% XP"
+  axe_master:
+    name: "Balta Mester"
+    desc: "{value}%-kal növeli a fejsze által okozott sebzést."
+    info: "+{value}% Fejsze Sebzés"
+  valor:
+    name: "Bátorság"
+    desc: "+{value} Erőt ad fejsze tartásakor."
+    info: "+{value} Erő"
+  shredder:
+    name: "Daráló"
+    desc: "{value}% esély a fejszével okozott háromszoros kopásért."
+    info: "{value}% 3x Kopás"
+  lucky_miner:
+    name: "Szerencsés Bányász"
+    desc: "+{value} Bányászati Szerencsét ad, ami növeli az esélyét extra nyersanyagok megszerzésére."
+    info: "+{value} Bányászati Szerencse"
+  miner:
+    name: "Bányász"
+    desc: "{value}% több Bányászati XP-t szerzel."
+    info: "+{value}% XP"
+  pick_master:
+    name: "Csákány Mester"
+    desc: "{value}%-kal növeli a csákány által okozott sebzést."
+    info: "+{value}% Csákány Sebzés"
+  stamina:
+    name: "Kitartás"
+    desc: "+{value} Ellenállást ad csákány tartásakor."
+    info: "+{value} Ellenállás"
+  hardened_armor:
+    name: "Keményített Páncél"
+    desc: "{value}% esély a páncél kopásának megakadályozására."
+    info: "{value}% Kopásmentesség"
+  lucky_catch:
+    name: "Szerencsés Fogás"
+    desc: "+{value} Halászat Szerencsét ad, ami növeli az esélyét extra fogásokra."
+    info: "+{value} Halászat Szerencse"
+  fisher:
+    name: "Halász"
+    desc: "{value}% több Halászat XP-t szerzel."
+    info: "+{value}% XP"
+  treasure_hunter:
+    name: "Kincsvadász"
+    desc: "{value}% nagyobb esély ritka zsákmányra halászat közben."
+    info: "+{value}% Ritka Zsákmány"
+  grappler:
+    name: "Horogra Kapó"
+    desc: "{value}%-kal gyorsabban húzod magadhoz a horoggal elkapott entitásokat."
+    info: "+{value}% Horog Sebesség"
+  epic_catch:
+    name: "Epikus Fogás"
+    desc: "{value}% extra esély epikus zsákmányra halászat közben."
+    info: "+{value}% Epikus Zsákmány"
+  metal_detector:
+    name: "Fémdetektor"
+    desc: "{value}% extra esély ritka zsákmányra ásás közben."
+    info: "+{value}% Ritka Zsákmány"
+  excavator:
+    name: "Ásó"
+    desc: "{value}% több Ásási XP-t szerzel."
+    info: "+{value}% XP"
+  spade_master:
+    name: "Lapát Mester"
+    desc: "{value}%-kal növeli a lapát által okozott sebzést."
+    info: "+{value}% Lapát Sebzés"
+  bigger_scoop:
+    name: "Nagyobb Markolás"
+    desc: "+{value} Ásási Szerencsét ad, ami növeli az esélyét extra nyersanyagok megszerzésére."
+    info: "+{value}% Ásási Szerencse"
+  lucky_spades:
+    name: "Szerencsés Lapátok"
+    desc: "{value}% extra esély epikus zsákmányra ásás közben."
+    info: "+{value}% Epikus Zsákmány"
+  retrieval:
+    name: "Visszaszerzés"
+    desc: "A kihagyott nyilaidat {time} másodperc után automatikusan visszakapod, maximum {value} blokk távolságból."
+    info: "{value} Távolság"
+  archer:
+    name: "Íjász"
+    desc: "{value}% több Íjászat XP-t szerzel."
+    info: "+{value}% XP"
+  bow_master:
+    name: "Íj Mester"
+    desc: "{value}%-kal növeli az íj által okozott sebzést."
+    info: "+{value}% Íj Sebzés"
+  piercing:
+    name: "Áthatolás"
+    desc: "{value}% esély, hogy a nyilak áthatolnak az ellenfeleken."
+    info: "{value}% Áthatolási Esély"
+  stun:
+    name: "Kábítás"
+    desc: "{value}% esély, hogy 2 másodpercre {reduction_percent}%-kal csökkented az ellenfél mozgási sebességét."
+    info: "{value}% Kábítási Esély"
+  shielding:
+    name: "Pajzsolás"
+    desc: "{value}%-kal csökkenti a kapott sebzést ha leguggolsz."
+    info: "-{value}% Kapott Sebzés Leguggolva"
+  defender:
+    name: "Védő"
+    desc: "{value}% több Védelem XP-t szerzel."
+    info: "+{value}% XP"
+  mob_master:
+    name: "Mob Mester"
+    desc: "{value}%-kal csökkenti a mobok által okozott sebzést."
+    info: "-{value}% Mob Sebzés"
+  immunity:
+    name: "Immunitás"
+    desc: "{value}% esély, hogy teljesen blokkolsz egy ellenfél támadást."
+    info: "{value}% Immunitás"
+  no_debuff:
+    name: "Nincs Debuff"
+    desc: "{value}% esély, hogy blokkolsz egy káros potion hatást."
+    info: "{value}% Debuff Blokkolás"
+  parry:
+    name: "Kitérés"
+    desc: "Ha kihagysz egy kardcsapást és {time} másodpercen belül megsebesülsz, {value}%-kal csökken a sebzés és nem kapod meg a lökést."
+    info: "{value}% Sebzés Csökkentés"
+    parried: "<red>Támadás kivédve"
+  fighter:
+    name: "Harcos"
+    desc: "{value}% több Harc XP-t szerzel."
+    info: "+{value}% XP"
+  sword_master:
+    name: "Kard Mester"
+    desc: "{value}%-kal növeli a kard által okozott sebzést."
+    info: "+{value}% Kard Sebzés"
+  first_strike:
+    name: "Első Csapás"
+    desc: "{value}%-kal növeli az első találat sebzését."
+    info: "+{value}% Első Találat Sebzés"
+    dealt: "<red>Első Csapás Kiosztva!"
+  bleed:
+    name: "Vérzés"
+    desc: "{value}% esély, hogy az ellenfél {base_ticks} tickig vérzik, tickenként {value_2} sebzést szenvedve. Már vérző ellenfelek {added_ticks} tickkel tovább vérzenek."
+    info: "{value}% Esély, {value_2} Sebzés"
+    enemy_bleeding: "<red>Ellenfél vérzik!"
+    self_bleeding: "<red>Te vérzel!"
+    stop: "<white>A vérzés megszűnt"
+  anti_hunger:
+    name: "Éhségellenes"
+    desc: "{value}% esély, hogy megállítod az éhség csökkenését."
+    info: "{value}% Éhség Csökkenés Blokkolás"
+  runner:
+    name: "Futó"
+    desc: "{value}% több Kitartás XP-t szerzel."
+    info: "+{value}% XP"
+  golden_heal:
+    name: "Arany Gyógyítás"
+    desc: "{value}%-kal növeli a regeneráció hatását."
+    info: "+{value}% Regeneráció Hatás"
+  recovery:
+    name: "Felépülés"
+    desc: "{value}%-kal növeli a természetes regenerációt, ha az életerőd a fele alatt van."
+    info: "+{value}% Alacsony Életerő Regeneráció"
+  meal_steal:
+    name: "Étel Lopás"
+    desc: "{value}% esély, hogy ellop 1 éhség pontot egy játékos megtámadásakor."
+    info: "{value}% Éhség Lopás"
+  light_fall:
+    name: "Könnyű Esés"
+    desc: "{value}%-kal csökkenti az esésből eredő sebzést."
+    info: "-{value}% Esési Sebzés"
+  jumper:
+    name: "Ugráló"
+    desc: "{value}% több Ügyesség XP-t szerzel."
+    info: "+{value}% XP"
+  sugar_rush:
+    name: "Cukor Láz"
+    desc: "Az elfogyasztott és kiloccsantott sebesség- és ugráserősítő bájitalok {value}%-kal tovább tartanak."
+    info: "{value}% Hosszabb Sebesség"
+  fleeting:
+    name: "Futó"
+    desc: "+{value} Sebességet kapsz, ha az életerőd 20% alatt van."
+    info: "+{value}% Sebesség"
+    start: "<white>Futó sebesség növekedést kaptál! <gray>(+{value}% Sebesség)"
+    end: "<gray>A futó sebesség növekedés megszűnt"
+  thunder_fall:
+    name: "Mennydörgő Esés"
+    desc: "Ha leguggolva esel le, {value}% eséllyel {value_2}%-át az esési sebzésnek okozod a moboknak 3 blokk sugarú körzetben."
+    info: "{value}% Esély, {value_2}% Sebzés"
+  alchemist:
+    name: "Alkímista"
+    desc: "A főzött bájitalok {value}%-kal tovább tartanak."
+    info: "+{value}% Bájital Időtartam"
+  brewer:
+    name: "Főző"
+    desc: "{value}% több Alkímia XP-t szerzel."
+    info: "+{value}% XP"
+  splasher:
+    name: "Locsoló"
+    desc: "A kiloccsantott bájitalok {value}%-kal tovább tartanak minden érintett játékos után."
+    info: "+{value}% Időtartam/Játékos"
+  lingering:
+    name: "Lassú Lebomlás"
+    desc: "A maradandó bájitalok {value}%-kal lassabban bomlanak le és {value_2}%-kal kevésbé bomlanak le érintett entitások hatására."
+    info: "-{value}% Természetes, -{value_2}% Entitás Lebomlás"
+  wise_effect:
+    name: "Bölcsesség Hatás"
+    desc: "{value} Bölcsességet kapsz minden egyedi aktív bájital hatásért."
+    info: "+{value} Bölcsesség/Hatás"
+  xp_convert:
+    name: "XP Átalakítás"
+    desc: "1 Minecraft XP-t kapsz minden {value} skill XP-ért."
+    info: "1 EXP/{value} Skill XP"
+  enchanter:
+    name: "Varázsló"
+    desc: "{value}% több Varázslás XP-t szerzel."
+    info: "+{value}% XP"
+  xp_warrior:
+    name: "XP Harcos"
+    desc: "{value}% esély, hogy dupla XP-t ejtenek a megölt mobok."
+    info: "{value}% 2x Mob XP"
+  enchanted_strength:
+    name: "Varázs Erő"
+    desc: "{value} Erőt kapsz minden egyedi varázslatért a kezedben tartott tárgyon."
+    info: "{value} Erő/Varázslat"
+  lucky_table:
+    name: "Szerencsés Asztal"
+    desc: "{value}% esély, hogy a varázslóasztalon varázsolt tárgyak varázslati szintje 1-gyel nő, ha nem a maximum szinten van."
+    info: "{value}% Varázslat Fejlesztési Esély"
+  life_essence:
+    name: "Életerő Lényeg"
+    desc: "Az azonnali életerő bájitalok {value}%-kal többet gyógyítanak."
+    info: "+{value}% Azonnali Életerő"
+  healer:
+    name: "Gyógyító"
+    desc: "{value}% több Gyógyítás XP-t szerzel."
+    info: "+{value}% XP"
+  life_steal:
+    name: "Életerő Lopás"
+    desc: "{value}%-át ellopod egy ellenfél maximális életerejének, ha megölöd."
+    info: "Lop {value}% Életerő"
+  golden_heart:
+    name: "Arany Szív"
+    desc: "{value}%-kal csökken az abszorpciós szívekre kapott sebzés."
+    info: "-{value}% Abszorpció Sebzés"
+  revival:
+    name: "Feltámadás"
+    desc: "+{value} Életerőt és +{value_2} Regenerációt kapsz 30 másodpercre újraéledés után."
+    info: "+{value} Életerő, +{value_2} Regeneráció"
+    message: "<white>Feltámadási bónuszt kaptál 30 másodpercre! <white>(<red>+{value} Életerő, <gold>+{value_2} Regeneráció<white>)"
+  disenchanter:
+    name: "Varázsoldó"
+    desc: "{value}% több XP-t kapsz, ha köszörűkővel eltávolítasz varázslatokat."
+    info: "+{value}% Köszörűkő XP"
+  forger:
+    name: "Kovács"
+    desc: "{value}% több Kovácsolás XP-t szerzel."
+    info: "+{value}% XP"
+  repairing:
+    name: "Javítás"
+    desc: "{value}%-kal több állapotot javít az üllő, ha az eredeti nyersanyagot használod a javításhoz."
+    info: "+{value}% Üllő Javítás"
+  anvil_master:
+    name: "Üllő Mester"
+    desc: "{value} XP-re növeli az üllő maximális javítási költségét, mielőtt az túl drága lenne."
+    info: "{value} Maximális Költség"
+  skill_mender:
+    name: "Skill Javító"
+    desc: "{value}% esély, hogy a skill XP szerzése javít 1 állapotot a kezedben tartott vagy viselt Mending-es tárgyakon, minden 2 skill XP-ért."
+    info: "{value}% Javítási Esély"
+mana_abilities:
+  replenish:
+    name: "Újraültetés"
+    desc: "Automatikusan újraülteti a növényeket {value} másodpercig <1>[Jobb klikk kapával és törd a növényt az aktiváláshoz]"
+    raise: "<gray>Felemelted a kapád"
+    lower: "<gray>Leengedted a kapád"
+    start: "<gold>Újraültetés aktiválva! <gray>(-{mana} {mana_unit})"
+    end: "<gray>Az Újraültetés hatása lejárt"
+
+  treecapitator:
+    name: "Favágó"
+    desc: "Azonnal kivág egész fákat {value} másodpercig <1>[Jobb klikk fejszével és törd a fatörzset az aktiváláshoz]"
+    raise: "<gray>Felemelted a fejszéd"
+    lower: "<gray>Leengedted a fejszéd"
+    start: "<gold>Favágó aktiválva! <gray>(-{mana} {mana_unit})"
+    end: "<gray>A Favágó hatása lejárt"
+
+  speed_mine:
+    name: "Gyorsbányászat"
+    desc: "Sietség {haste_level}-et ad {value} másodpercig <1>[Jobb klikk csákánnyal és bányássz az aktiváláshoz]"
+    raise: "<gray>Felemelted a csákányod"
+    lower: "<gray>Leengedted a csákányod"
+    start: "<gold>Gyorsbányászat aktiválva! <gray>(-{mana} {mana_unit})"
+    end: "<gray>A Gyorsbányászat hatása lejárt"
+
+  absorption:
+    name: "Elnyelés"
+    desc: "A sebzés mana csökkenéssel jár {value} másodpercig <1>[Bal klikk pajzzsal és szenvedj sebzést az aktiváláshoz]"
+    raise: "<gray>Felemelted a pajzsod"
+    lower: "<gray>Leengedted a pajzsod"
+    start: "<gold>Elnyelés aktiválva! <gray>(-{mana} {mana_unit})"
+    end: "<gray>Az Elnyelés hatása lejárt"
+
+  not_ready: "<red>Képesség még nem használható! <gray>(Várj még {cooldown} másodpercet)"
+  not_enough_mana: "<yellow>Nincs elég manád! <gray>(Szükséges: {mana} {mana_unit})"
+
+  terraform:
+    name: "Terraformálás"
+    desc: "Azonnal lebontja a blokkokat {radius} blokk sugarú körzetben vízszintes síkban {value} másodpercig. <1>[Jobb klikk lapáttal és ásás az aktiváláshoz]"
+    raise: "<gray>Felemelted a lapátod"
+    lower: "<gray>Leengedted a lapátod"
+    start: "<gold>Terraformálás aktiválva! <gray>(-{mana} {mana_unit})"
+    end: "<gray>A Terraformálás hatása lejárt"
+
+  sharp_hook:
+    name: "Éles Horog"
+    desc: "{value} sebzést okoz a horogra akadt entitásnak, ha bal klikkelsz a horgászbotbal"
+    use: "<gold>Éles Horog használva! <gray>(-{mana} {mana_unit})"
+
+  charged_shot:
+    name: "&6Töltött Lövés"
+    desc: "&7A nyilak sebzése &a+{value}%&7-al nő mana felhasználással. &8[&eBal klikk az íjon&8]"
+    enable: "&7Töltött mód &aaktiválva"
+    disable: "&7Töltött mód &cdeaktiválva"
+    shoot: "&6Töltött lövés! &d+{percent}% sebzés &7(-{mana} mana)"
+
+  lightning_blade:
+    name: "Villámkard"
+    desc: "{value}%-kal növeli a támadási sebességet {duration} másodpercig. <1>[Jobb klikk karddal és támadj egy mobot az aktiváláshoz]"
+    raise: "<gray>Felemelted a kardod"
+    lower: "<gray>Leengedted a kardod"
+    start: "<aqua>Villámkard aktiválva! <gray>(-{mana} {mana_unit})"
+    end: "<gray>A Villámkard hatása lejárt"
+
+  not_ready: "<red>Képesség még nem használható! <gray>(Várj még {cooldown} másodpercet)"
+  not_enough_mana: "<yellow>Nincs elég mana! <gray>(Szükséges: {mana} {mana_unit})"
+
+acf:
+  core:
+    permission_denied: "<red>Sajnálom, de nincs jogosultságod ehhez a parancshoz."
+    permission_denied_parameter: "<red>Sajnálom, de nincs jogosultságod ehhez a parancshoz."
+    error_generic_logged: "<red>Hiba történt. A probléma naplózva lett. Elnézést a kellemetlenségért."
+    unknown_command: "<red>Ismeretlen parancs, írd be: <yellow>/sk help"
+    invalid_syntax: "<yellow>Használat: <yellow>{command} <green>{syntax}"
+    error_prefix: "<red>Hiba: {message}"
+    error_performing_command: "<red>Sajnálom, de hiba történt a parancs végrehajtása közben."
+    please_specify_one_of: "<red>Hiba: Kérlek válassz a következőkből (<yellow>{valid}<red>)"
+    must_be_a_number: "<red>Hiba: {num} számnak kell lennie."
+    must_be_min_length: "<red>Hiba: Legalább {min} karakter hosszúnak kell lennie."
+    must_be_max_length: "<red>Hiba: Legfeljebb {max} karakter hosszú lehet."
+    please_specify_at_most: "<red>Hiba: Kérlek adj meg legfeljebb {max} értéket."
+    please_specify_at_least: "<red>Hiba: Kérlek adj meg legalább {min} értéket."
+    not_allowed_on_console: "<red>Hiba: Konzol nem hajthatja végre ezt a parancsot."
+    could_not_find_player: "<red>Hiba: Nem található játékos ezzel a névvel: <yellow>{search}"
+    no_command_matched_search: "<red>Nincs parancs ami egyezne: <yellow>{search}"
+    help_page_information: "<aqua> - Megjelenítve oldal: <green>{page} <aqua>/ <green>{totalpages} <aqua>(<yellow>{results}<aqua> találat)"
+    help_no_results: "<aqua>Hiba: Nincs több találat."
+    help_header: "<yellow>=== <aqua>Segítség a parancshoz: <green>{commandprefix}{command}<yellow> ==="
+    help_detailed_header: "<yellow>=== <aqua>Részletes segítség a parancshoz: <green>{commandprefix}{command}<yellow> ==="
+    help_search_header: "<yellow>=== <aqua>Keresési eredmények: <green>{commandprefix}{command} {search}<yellow> ==="
+  minecraft:
+    invalid_world: "<red>Hiba: Ez a világ nem létezik."
+    you_must_be_holding_item: "<red>Hiba: A kezedben kell tartanod egy tárgyat!"
+    player_is_vanished_confirm: "<yellow>Figyelem: <green>{vanished} <yellow>el van rejtőzve. Ne áruld el!\n<yellow>A művelet megerősítéséhez add hozzá: <green>:confirm <yellow>a nevéhez.\n<yellow>Például: {vanished}:confirm"
+    username_too_short: "<red>Hiba: Túl rövid felhasználónév, legalább 3 karakter kell."
+    is_not_a_valid_name: "<red>Hiba: <yellow>{name} <red>nem érvényes felhasználónév."
+    multiple_players_match: "<red>Hiba: Több játékos is egyezik: <aqua>{search} <yellow>({all})<red>, kérlek legyél pontosabb."
+    no_player_found_server: "<red>Nincs ilyen játékos csatlakozva: <yellow>{search}"
+    no_player_found_offline: "<red>Nem található offline játékos: <yellow>{search}"
+    no_player_found: "<red>Nem található játékos: <yellow>{search}"
+    location_please_specify_world: "<red>Hiba: Kérlek add meg a világot. Példa: <yellow>világ:x,y,z"
+    location_please_specify_xyz: "<red>Hiba: Kérlek add meg a koordinátákat (x, y, z). Példa: <yellow>világ:x,y,z"
+    location_console_not_relative: "<red>Hiba: Konzol nem használhat relatív koordinátákat."
+
+commands:
+  prefix: "<dark_gray>[<aqua>Képességek<dark_gray>]<reset> "
+  antiafk:
+    failed: "<red>{player} nem teljesítette az anti-AFK ellenőrzést: {check} <gray>(Számláló: {count})"
+    logs:
+      header: "<gray>Anti-AFK naplók a következő játékosról: <red>{player} <gray>({count} összesen) <dark_gray>| <gray>Oldal {page}/{total_pages}:"
+      entry: "<gray>{timestamp} - {message}"
+      desc: "Megmutatja egy játékos anti-AFK naplóit."
+  armor:
+    modifier:
+      add:
+        added: "Stat módosító hozzáadva a páncélhoz: {stat}, érték: {value}, művelet: {operation}"
+        already_exists: "<yellow>Már van ilyen páncél módosító: {color}{stat} <yellow>a páncélodon! Először töröld: /sk armor modifier remove"
+        desc: "Stat módosítót ad a kezedben tartott páncélhoz, alapértelmezetten lore-t is."
+      remove:
+        does_not_exist: "<yellow>A páncélodon nincs ilyen módosító: {color}{stat}"
+        removed: "{color}{stat} <gray>módosító eltávolítva a páncélodról"
+        desc: "Eltávolít egy stat módosítót a páncélról, alapértelmezetten a hozzá tartozó lore-t is."
+      list:
+        header: "<white>Páncél stat módosítók:"
+        desc: "Felsorolja az összes stat módosítót a páncélodon."
+      removeall:
+        removed: "<gray>Minden páncél stat módosító eltávolítva"
+        desc: "Eltávolít minden stat módosítót a páncélról."
+
+  armor:
+    trait:
+      remove:
+        desc: "Eltávolít egy tulajdonság módosítót a páncélról."
+      list:
+        desc: "Felsorolja az összes páncél tulajdonság módosítót."
+      removeall:
+        desc: "Eltávolít minden tulajdonság módosítót a páncélról."
+    multiplier:
+      add:
+        added: "<aqua>{target} <gray>szorzó hozzáadva: <aqua>{value} <gray>a páncélodhoz"
+        already_exists: "<yellow>Már van ilyen páncél szorzó: <aqua>{target} <yellow>a páncélodon! Először töröld: /sk armor multiplier remove"
+        skill_lore: "<gray>Viseléskor: <aqua>+{value}% {skill} XP"
+        skill_lore_subtract: "<gray>Viseléskor: <aqua>-{value}% {skill} XP"
+        global_lore: "<gray>Viseléskor: <blue>+{value}% Skill XP"
+        global_lore_subtract: "<gray>Viseléskor: <blue>-{value}% Skill XP"
+        desc: "XP-szorzót ad a páncélhoz (globális vagy skill-specifikus)"
+      remove:
+        does_not_exist: "<yellow>A páncélodon nincs ilyen szorzó: <aqua>{target}"
+        removed: "<aqua>{target} <gray>páncél szorzó eltávolítva"
+        desc: "Eltávolít egy XP-szorzót a páncélról"
+      list:
+        header: "<white>Páncél XP-szorzók:"
+        desc: "Felsorolja az összes XP-szorzót a páncélodon"
+      removeall:
+        removed: "<gray>Minden páncél XP-szorzó eltávolítva"
+        desc: "Eltávolít minden XP-szorzót a páncélról"
+    requirement:
+      add:
+        added: "<dark_aqua>{skill}<gray> páncél követelmény hozzáadva: <aqua>{level}<gray> szint"
+        already_exists: "<yellow>Már van ilyen páncél követelmény: <dark_aqua>{skill}<yellow>! Először töröld: /sk armor requirement remove"
+        lore: "<red>Szükséges: <dark_aqua>{skill} {level}"
+        desc: "Szintkövetelményt ad a páncélhoz"
+      remove:
+        does_not_exist: "<yellow>A páncélodon nincs ilyen követelmény: <dark_aqua>{skill}"
+        removed: "<dark_aqua>{skill}<gray> páncél követelmény eltávolítva"
+        desc: "Eltávolít egy szintkövetelményt a páncélról"
+      list:
+        header: "<white>Páncél követelmények:"
+        desc: "Felsorolja a páncél szintkövetelményeit"
+      removeall:
+        removed: "<gray>Minden páncél követelmény eltávolítva"
+        desc: "Eltávolít minden szintkövetelményt a páncélról"
+      equip: "<yellow>Nem felelsz meg a páncél követelményeinek: {requirements}"
+
+backup:
+  load:
+    confirm: "<red>BACKUP BETÖLTÉSE VISSZAÁLLÍTJA AZ ÖSSZES JÁTÉKOS SKILL ADATOT! VÉGLEGES! Írd be újra a parancsot a megerősítéshez"
+    loading: "<white>Backup betöltése..."
+    loaded: "<green>Backup sikeresen betöltve"
+    error: "<red>Hiba a backup betöltésekor: {error}"
+    must_be_yaml: "<yellow>Csak .yml fájl lehet!"
+    file_not_found: "<yellow>Nincs ilyen backup fájl!"
+    desc: "Backup betöltése"
+  save:
+    saving: "<white>Backup készítése..."
+    saved: "<white>{type} adat mentve ide: {file}"
+    error: "<red>Hiba a mentéskor: {type} adat! Nézd a konzolt"
+    desc: "Adatmentés backup fájlba"
+
+claimitems:
+  desc: "Nem gyűjtött tárgyak kiválasztása"
+  no_items: "<yellow>Nincs gyűjthető tárgyad!"
+
+item:
+  give:
+    sender: "<white>Átadva: <aqua>{amount}x {key} <white>nekik: {player}"
+    receiver: "<white>Kaptál: <aqua>{amount}x {key}"
+    desc: "Tárgy adás a játékosnak"
+  modifier:
+    add:
+      added: "Stat módosító hozzáadva: {stat}, érték: {value}, művelet: {operation}"
+      already_exists: "<yellow>Már van ilyen módosító: {color}{stat} <yellow>a tárgyon! Először töröld"
+      desc: "Stat módosítót ad a tárgyhoz"
+    remove:
+      does_not_exist: "<yellow>Nincs ilyen módosító: {color}{stat}"
+      removed: "{color}{stat} <gray>módosító eltávolítva"
+      desc: "Stat módosító eltávolítása"
+    list:
+      header: "<white>Tárgy stat módosítók:"
+      desc: "Felsorolja a tárgy stat módosítóit"
+    removeall:
+      removed: "<gray>Minden stat módosító eltávolítva"
+      desc: "Összes stat módosító törlése"
+  jobs:
+    add:
+      added: "<white>{player} mostantól {job} munkát végez"
+      limited: "<yellow>{player} elérte a maximális munka számot!"
+      existing: "<yellow>{player} már végzi ezt a munkát: {job}"
+      desc: "Munka hozzáadása"
+    remove:
+      removed: "<white>{player} már nem végzi ezt a munkát: {job}"
+      unchanged: "<yellow>{player} nem is végzett {job} munkát"
+      desc: "Munka eltávolítása"
+    removeall:
+      removed: "<white>{player} minden munkája törölve"
+      desc: "Összes munka törlése"
+
+  lang:
+    set: "<gray>Nyelv beállítva: <aqua>{lang}"
+    not_found: "<yellow>Nincs ilyen nyelv!"
+    desc: "Nyelv váltása"
+
+  mana:
+    display: "<white>Manád: <aqua>{current}/{max}"
+    display_other: "<white>{player} manája: <aqua>{current}/{max}"
+    desc: "Mana megjelenítése"
+    add:
+      added: "<gray>{player} kapott <aqua>{amount} manát"
+      desc: "Mana adás"
+    remove:
+      removed: "<gray>{player} elveszített <aqua>{amount} manát"
+      desc: "Mana elvétele"
+    set:
+      set: "<gray>{player} manája beállítva: <aqua>{amount}"
+      desc: "Mana beállítása"
+    at_least_zero: "<yellow>Mana nem lehet negatív!"
+    console_specify_player: "<yellow>Konzolból kötelező játékost megadni!"
+
+  modifier:
+    add:
+      added: "{color}{stat} <gray>módosító hozzáadva: <aqua>{value} <gray>névvel: <white>{name} <gray>ehhez: <gold>{player}"
+      already_exists: "<yellow>Már van ilyen módosító: {name} <gold>{player}<yellow>-n! Először töröld"
+      desc: "Stat módosító hozzáadása"
+    addtemp:
+      added: "Ideiglenes módosító hozzáadva: {player} stat: {stat}, név: {name}, érték: {value}, idő: {duration}, művelet: {operation}"
+      desc: "Ideiglenes stat módosító"
+    remove:
+      not_found: "<yellow>Nincs ilyen módosító: {name} <gold>{player}-nél"
+      removed: "<gray>Módosító törölve: <white>{name} <gold>{player}-től"
+      desc: "Módosító eltávolítása"
+    list:
+      all_stats_header: "<gray>Stat módosítók: <gold>{player}:"
+      all_stats_entry: "  <white>{name} - {color}{stat} <white>Szint: <gold>{value}"
+      one_stat_header: "<gray>Stat módosítók ({color}{stat}<gray>): <gold>{player}:"
+      one_stat_entry: "  <white>{name} - {color}{stat} <white>Szint: <gold>{value}"
+      players_only: "<yellow>Csak játékos listázhatja saját módosítóit!"
+      desc: "Módosítók listázása"
+    removeall:
+      removed_all_stats: "<gray>Eltávolítva: <aqua>{num} <gray>stat módosító <gold>{player}-től"
+      removed_one_stat: "<gray>Eltávolítva: <aqua>{num} {color}{stat} <gray>módosító <gold>{player}-től"
+      players_only: "<yellow>Csak játékos távolíthat el saját módosítókat!"
+      desc: "Összes módosító törlése"
+
+  trait:
+    add:
+      already_exists: "<yellow>Már van ilyen tulajdonság: {name} <gold>{player}-nél! Először töröld"
+      desc: "Tulajdonság hozzáadása"
+    addtemp:
+      added: "Ideiglenes tulajdonság hozzáadva: {player} tulajdonság: {trait}, név: {name}, érték: {value}, idő: {duration}"
+      desc: "Ideiglenes tulajdonság"
+    remove:
+      desc: "Tulajdonság eltávolítása"
+    list:
+      all_traits_header: "<gray>Tulajdonság módosítók: <gold>{player}:"
+      one_trait_header: "<gray>Tulajdonság módosítók ({color}{trait}<gray>): <gold>{player}:"
+      desc: "Tulajdonságok listázása"
+    removeall:
+      removed_all_traits: "<gray>Eltávolítva: <aqua>{num} <gray>tulajdonság módosító <gold>{player}-től"
+      desc: "Összes tulajdonság törlése"
+
+  multiplier:
+    global: "Globális"
+    list: "<white>Globális XP szorzó <gold>{player}<white>: <aqua>{multiplier}x / +{percent}%"
+    skill_entry: "<aqua>{skill} <white>XP szorzó: <aqua>{multiplier}x / +{percent}%"
+    players_only: "<yellow>Csak játékos nézheti saját szorzóját!"
+    desc: "XP szorzó megjelenítése"
+
+  openmenu:
+    desc: "Menü megnyitása"
+
+  preset:
+    load:
+      confirm: "<red>PRESET BETÖLTÉSE FELÜLÍRJA A BEÁLLÍTÁSOKAT! Írd be újra a parancsot a megerősítéshez"
+      loaded: "Sikeres preset betöltés: {name}, indítsd újra a szervert!"
+      created: "Létrehozott fájlok"
+      modified: "Módosított fájlok"
+      replaced: "Felülírt fájlok"
+      deleted: "Törölt fájlok"
+      skipped: "Kihagyott fájlok"
+      desc: "Preset betöltése"
+  profile:
+    skills:
+      header: "Képesség profil: <gold>{name}:\n<gray>UUID: <white>{uuid}\n<gray>Képességek:{skill_entries}"
+      entry: "\n  <dark_aqua>{skill} <gray>- Szint: <white>{level}<gray>, XP: <white>{xp}"
+      desc: "Játékos képességeinek megjelenítése (offline is)"
+    stats:
+      header: "Statisztika profil: <gold>{name}:\n<gray>UUID: <white>{uuid}\n<gray>Statok:{stat_entries}"
+      entry: "\n  <dark_aqua>{stat} <gray>- Összes szint: <white>{total_level}<gray>, Alap szint: <white>{base_level}<gray>, Módosított szint: <white>{modified_level}"
+      desc: "Játékos statjainak megjelenítése (offline is)"
+
+  rank:
+    header: "<aqua><bold>Képességeid helyezése"
+    power: "<yellow>Teljesítmény <gray>(Összes képesség): <white>#{rank} / {total}"
+    entry: "<aqua>{skill}<gray>: <white>#{rank} / {total}"
+    desc: "Helyezéseid megjelenítése"
+
+  reload:
+    reloaded: "<green>Beállítások újratöltve!"
+    desc: "Konfiguráció újratöltése"
+
+  resethealth:
+    desc: "AuraSkills attribútum módosítók törlése (offline játékosoknál)"
+
+  save:
+    already_saving: "<yellow>Az adatok már mentés alatt vannak!"
+    mysql_not_enabled: "<yellow>MySQL nincs engedélyezve, fájlba mentés helyette!"
+    saved: "<green>Képesség adatok elmentve!"
+    desc: "Adatok mentése"
+
+  skill:
+    setall:
+      set: "<gray>Összes képesség beállítva: <aqua>{level} <gray>szintre ennél: <gold>{player}"
+      desc: "Összes képesség szintjének beállítása"
+    setlevel:
+      set: "<gray>Képesség beállítva: <aqua>{skill} <gray>szint: <aqua>{level} <gray>ennél: <gold>{player}"
+      desc: "Egy képesség szintjének beállítása"
+    reset:
+      desc: "Képességek visszaállítása"
+    at_least: "<yellow>A szintnek legalább {level}-nak kell lennie!"
+
+  skills:
+    desc: "Képességek menü megnyitása"
+
+  stats:
+    desc: "Statisztikák menü megnyitása"
+
+  sources:
+    desc: "XP források menü megnyitása"
+
+  toggle:
+    enabled: "<green>Képességek action bar engedélyezve"
+    disabled: "<red>Képességek action bar letiltva"
+    not_enabled: "<yellow>Az action bar nincs engedélyezve a szerveren!"
+    desc: "Action bar ki/be kapcsolása"
+
+  top:
+    desc: "Toplista megjelenítése"
+    power_header: "<white>--==<aqua><bold>Összes képesség toplista</bold><white>==--"
+    power_header_page: "<white>--==<aqua><bold>Összes képesség toplista</bold><white>(Oldal {page})==--"
+    skill_header: "<white>--==<aqua><bold>{skill} toplista</bold><white>==--"
+    skill_header_page: "<white>--==<aqua><bold>{skill} toplista</bold><white>(Oldal {page})==--"
+    average_header: "<white>--==<aqua><bold>Átlagos képességszint toplista</bold><white>==--"
+    average_header_page: "<white>--==<aqua><bold>Átlagos képességszint toplista</bold><white>(Oldal {page})==--"
+    usage: "<yellow>Használat: <green>/sk top <white><oldal> <gray>vagy <green>/sk top <white>[képesség] <oldal>"
+
+  transfer:
+    success: "<green>Sikeres adatátvitel innen: <gray>{from} <green>ide: <gray>{to}"
+    error: "<red>Hiba történt az adatátvitel során. Nézd a konzolt!"
+    desc: "Játékos adatok átvitele"
+
+  updateleaderboards:
+    already_updating: "<yellow>A toplista már frissül!"
+    updated: "<green>Toplista frissítve!"
+    desc: "Toplista frissítése"
+
+  version:
+    version: "<white>Jelenlegi verzió: AuraSkills <aqua>{current_version}<white>, legújabb: <aqua>{latest_version}"
+    new_update: "{prefix}<white>Új frissítés! Jelenlegi: <aqua>{current_version}<white>, legújabb: <aqua>{latest_version}\n{prefix}<white>Letöltés: <yellow><underlined>{link}"
+    desc: "Verzió információ"
+
+  xp:
+    add:
+      added: "<gray>XP hozzáadva: <aqua>{amount} {skill} <gray>XP ennél: <gray>{player}"
+      desc: "XP hozzáadása"
+    set:
+      set: "<gray>XP beállítva: <aqua>{skill} <gray>XP: {amount} ennél: <gray>{player}"
+      desc: "XP beállítása"
+    remove:
+      removed: "<gray>XP eltávolítva: <aqua>{amount} {skill} <gray>XP ettől: <gold>{player}"
+      desc: "XP eltávolítása"
+
+  manaability:
+    resetcooldown:
+      cooldown_reset: "<gray>Cooldown visszaállítva: <aqua>{ability} <gray>ennél: <gold>{player}"
+      desc: "Mana képesség cooldown visszaállítása"
+
+  unknown_skill: "<yellow>Ismeretlen képesség!"
+  unknown_mana_ability: "<yellow>Ismeretlen mana képesség!"
+  unknown_stat: "<yellow>Ismeretlen stat!"
+  unknown_trait: "<yellow>Ismeretlen tulajdonság!"
+  no_profile: "<yellow>A játékosnak nincs képesség profilja! Próbáld újra vagy indítsd újra a szervert."
+
+leveler:
+  level_up: "{skill} Szintlépés"
+  skill_level_up: "Képesség Szintlépés"
+  rewards: "Jutalmak"
+  ability_unlock: "Képesség Feloldva"
+  ability_level_up: "Képesség Fejlesztve"
+  mana_ability_unlock: "Mana Képesség Feloldva"
+  mana_ability_level_up: "Mana Képesség Fejlesztve"
+  unclaimed_item: "<red>Nem gyűjtött tárgyaid vannak! Használd: <yellow>/skills claimitems <red>a felvételhez"
+
+menus:
+  common:
+    close: "Bezárás"
+    level: "Szint"
+    progress_to_level: "Haladás a következő szintig"
+    max_level: "MAX SZINT"
+    ability_levels: "Képesség Szintek"
+    stats_leveled: "Fejlesztett Statok"
+    mana_ability: "Mana Képesség"
+    duration: "Időtartam"
+    mana_cost: "Mana Költség"
+    cooldown: "Lehülés"
+    damage: "Sebzés"
+    max_mana_cost: "Max Mana Költség"
+    attack_speed: "Támadási Sebesség"
+    back: "Vissza"
+    back_click: "Vissza a(z) {menu_name} menühöz"
+    unlocked: "FELOLDVA"
+    in_progress: "FOLYAMATBAN"
+    locked: "ZÁRVA"
+    your_level: "Te szinted"
+    next_page: "Következő oldal"
+    next_page_click: "Kattints a következő oldalhoz"
+    previous_page: "Előző oldal"
+    previous_page_click: "Kattints az előző oldalhoz"
+    trait: "Tulajdonság"
+    trait_gain: "<1>Kapsz {color}{level_modifier} {trait_name} <1>tulajdonságot minden {color}1 {stat_name} <1>stat szintért."
+    trait_level: "Tulajdonság Szint"
+    base: "Alap"
+    modifiers_additive: "Módosítók (Összeadható)"
+    modifiers_multiplicative: "Módosítók (Szorzó)"
+  skills:
+    skills_title: "Képességeid"
+    your_skills: "Saját Képességek"
+    your_skills_desc: "Fejleszd képességeidet különböző tevékenységekkel, hogy értékes stat növekményeket és képességeket nyerj!"
+    your_skills_hover: "Vidd az egeret a képességekre több információért!"
+    your_skills_click: "Kattints egy képességre a szintfejlődés megtekintéséhez!"
+    skill_click: "Kattints a szintfejlődés megtekintéséhez!"
+    stats: "Statok"
+    stats_desc: "Stat buffokat kapsz a képességek fejlesztésével"
+    stats_click: "Kattints a statok részletezéséhez"
+    active_job: "Aktív Munka"
+
+  level_progression:
+    level_progression_title: "{skill} Szintek - {page}. oldal"
+    your_ranking: "Helyezésed"
+    rank_out_of: "<1>Helyezésed: <2>{rank}</2> / {total} játékos</1>"
+    rank_percent: "<1>A játékosok felső <2>{percent}%</2>-ában vagy</1>"
+    rewards: "Jutalmak"
+    ability_unlock: "Képesség Feloldása"
+    mana_ability_unlock: "Mana Képesség Feloldása"
+    progress: "Haladás"
+    leaderboard_click: "Kattints a(z) {skill} toplistához"
+    sources: "XP Források"
+    sources_desc: "A források menü megmutatja, hogyan szerezhetsz XP-t egy képességben"
+    sources_click: "Kattints a(z) {skill} forrásokhoz"
+    abilities: "Képességek"
+    abilities_desc: "<2>Képességek</2> <1>passzív képességek, amiket a szintlépéssel nyersz</1>"
+    mana_abilities_desc: "<3>Mana Képességek</3> <1>speciális képességek, amiket aktiválni kell és mana kerül felhasználásra</1>"
+    abilities_click: "Kattints a(z) {skill} képességekhez"
+    job: "Munka"
+    job_desc: "A(z) {skill} kiválasztása munkaként pénzt is hoz az XP mellett"
+    job_select: "Bal klikk a(z) {skill} munkaként való kiválasztásához"
+    job_active: "Ez a munkád jelenleg"
+    job_quit: "Jobb klikk a munka otthagyásához"
+    job_limit: "Elérted a maximális munka számot! Először hagyd el egy munkát"
+    job_cooldown: "Munka váltás cooldown. Várj még {time}"
+
+  stats:
+    stats_title: "Statisztikáid"
+    skills: "Képességek"
+    added_drop: "+{value} Nyersanyag"
+    added_drops: "+{value} Nyersanyag"
+    chance_drop: "{chance}% esély +{value} nyersanyagra"
+    chance_drops: "{chance}% esély +{value} nyersanyagra"
+    stat_info_click: "Kattints a stat részletekért"
+
+  unclaimed_items:
+    unclaimed_items_title: "Tárgyak Felvétele"
+    inventory_full: "Nincs elég hely a tárhelyeden!"
+    click_to_claim: "Kattints a felvételhez!"
+
+  leaderboard:
+    leaderboard_title: "{skill} Toplista"
+
+  sources:
+    sources_title: "{skill} XP Források"
+    sorter: "XP Források Rendezése"
+    descending: "Legtöbbtől a legkevesebbig"
+    ascending: "Legkevesebbtől a legtöbbig"
+    alphabetical: "Név (A-Z)"
+    reverse_alphabetical: "Név (Z-A)"
+    sort_click: "Kattints a rendezés váltásához"
+    multiplied_xp: "Szorzott {xp_unit}"
+    multiplied_desc: "Ez a ténylegesen megszerzett XP a szorzóid alapján"
+
+  abilities:
+    abilities_title: "{skill} Képességek"
+    description: "Leírás"
+    unlocked_at: "<1>Feloldva: <2>{skill} {level} szinten</2>"
+    next_upgrade_at: "<1>Következő fejlesztés: <2>{skill} {level} szinten</2>"
+
+  stat_info:
+    stat_details: "{stat_name} Stat"
+    stat: "Stat"
+    stat_level: "Stat Szint"
+    traits_leveled: "Fejlesztett Tulajdonságok"
+    stat_reward_desc: "A(z) {skill} képességed szintjétől függ"
+    stat_modifiers_click: "Kattints a stat módosítókhoz"
+    trait_modifiers_click: "Kattints a tulajdonság módosítókhoz"
+    showing_stat_modifiers: "Stat módosítók mutatása"
+    showing_trait_modifiers: "Tulajdonság módosítók mutatása"
+    base_level: "Alap Szint"
+    base_level_desc: "Alap szint Minecraft és külső forrásokból"
+    linked_stat_desc: "A(z) {stat} statod szintjétől függ"
+    ability_modifier_name: "{name} Képesség"
+    ability_modifier_desc: "A(z) {ability} képességtől függ"
+    custom_modifier_desc: "Egyedi módosítótól függ"
+    item_hand_desc: "A kezedben tartott tárgytól függ"
+    item_off_hand_desc: "A másodlagos kezedben lévő tárgytól függ"
+    helmet_desc: "A sisakodtól függ"
+    chestplate_desc: "A mellvértedtől függ"
+    leggings_desc: "A nadrágodtól függ"
+    boots_desc: "A csizmádtól függ"
+    effective_trait: "Hatékony {trait_name}"
+
+
+skills:
+  farming:
+    name: "Farmolás"
+    desc: "Növények betakarításával szerzel Farmolási {xp_unit}"
+  foraging:
+    name: "Fakitermelés"
+    desc: "Fák kivágásával szerzel Fakitermelési {xp_unit}"
+  mining:
+    name: "Bányászat"
+    desc: "Kőzetek és ércek bányászásával szerzel Bányászati {xp_unit}"
+  fishing:
+    name: "Halászat"
+    desc: "Halak fogásával szerzel Halászati {xp_unit}"
+  excavation:
+    name: "Ásás"
+    desc: "Lapáttal történő ásással szerzel Ásási {xp_unit}"
+  archery:
+    name: "Íjászat"
+    desc: "Íjjal való lövöldözéssel szerzel Íjászati {xp_unit}"
+  defense:
+    name: "Védelem"
+    desc: "Sebzés elszenvedésével szerzel Védelmi {xp_unit}"
+  fighting:
+    name: "Harc"
+    desc: "Közelharcban szerzel Harci {xp_unit}"
+  endurance:
+    name: "Kitartás"
+    desc: "Futással és gyaloglással szerzel Kitartási {xp_unit}"
+  agility:
+    name: "Ügyesség"
+    desc: "Mozgással és eséssel szerzel Ügyességi {xp_unit}"
+  alchemy:
+    name: "Alkímia"
+    desc: "Bájitalok főzésével szerzel Alkímiai {xp_unit}"
+  enchanting:
+    name: "Varázslás"
+    desc: "Tárgyak varázslásával szerzel Varázslási {xp_unit}"
+  sorcery:
+    name: "Mágia"
+    desc: "Mana képességek használatával szerzel Mágia {xp_unit}"
+  healing:
+    name: "Gyógyítás"
+    desc: "Gyógyulással szerzel Gyógyítási {xp_unit}"
+  forging:
+    name: "Kovácsolás"
+    desc: "Üllő használatával szerzel Kovácsolási {xp_unit}"
+
+stats:
+  strength:
+    name: "Erő"
+    desc: "Növeli a fegyvereiddel okozott sebzést"
+  health:
+    name: "Életerő"
+    desc: "Növeli a maximális életerőd"
+  regeneration:
+    name: "Regeneráció"
+    desc: "Gyorsabb életerő és mana regenerációt biztosít"
+  luck:
+    name: "Szerencse"
+    desc: "Növeli az extra nyersanyag esélyét"
+  wisdom:
+    name: "Bölcsesség"
+    desc: "Növeli a manádat, XP szerzést és csökkenti az üllő költségeket"
+  toughness:
+    name: "Ellenállás"
+    desc: "Csökkenti a kapott sebzést"
+  crit_chance:
+    name: "Kritikus Esély"
+    desc: "Növeli a kritikus találat esélyét"
+  crit_damage:
+    name: "Kritikus Sebzés"
+    desc: "Növeli a kritikus találat sebzését"
+  speed:
+    name: "Sebesség"
+    desc: "Növeli a mozgási sebességed"
+
+traits:
+  attack_damage:
+    name: "Támadási Sebzés"
+  hp:
+    name: "Életerő"
+  saturation_regen:
+    name: "Telítettség Regeneráció"
+  hunger_regen:
+    name: "Éhség Regeneráció"
+  mana_regen:
+    name: "Mana Regeneráció"
+  luck:
+    name: "Szerencse Attribútum"
+  double_drop:
+    name: "Dupla Nyersanyag"
+  experience_bonus:
+    name: "XP Bónusz"
+  anvil_discount:
+    name: "Üllő Kedvezmény"
+  max_mana:
+    name: "Maximális Mana"
+  damage_reduction:
+    name: "Sebzés Csökkentés"
+  crit_chance:
+    name: "Kritikus Esély"
+  crit_damage:
+    name: "Kritikus Sebzés"
+  movement_speed:
+    name: "Mozgási Sebesség"
+  farming_luck:
+    name: "Farmolási Szerencse"
+  foraging_luck:
+    name: "Fakitermelési Szerencse"
+  mining_luck:
+    name: "Bányászati Szerencse"
+  excavation_luck:
+    name: "Ásási Szerencse"
+  fishing_luck:
+    name: "Halászati Szerencse"
+
+ui:
+  maxed: "MAX"
+
+units:
+  mana: "Mana"
+  hp: "Életerő"
+  xp: "XP"
+
+file_version: 39
